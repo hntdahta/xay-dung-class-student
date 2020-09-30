@@ -6,6 +6,7 @@ namespace xay_dung_class_student
     {
         static void Main(string[] args)
         {
+            Console.OutputEncoding = Encoding.UTF8;
             Student student1 = new Student(1, "M. Công", "Hà Nội", 30);
 
             Student student2 = new Student();
